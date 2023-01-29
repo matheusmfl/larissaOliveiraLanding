@@ -1,12 +1,25 @@
 header {
   background-color: #f3f8fa;
-  max-height: 618px;
+  height: 100%;
+}
+
+.headerContainer {
   display: flex;
+  padding-bottom: 3%;
+}
+
+.headerContainer:last-child {
+  position: relative;
+}
+
+.heroImg {
+  position: absolute;
+  bottom: 0;
 }
 
 .firstContainer {
   max-width: 35%;
-  padding-top: 12%;
+  padding-top: 7%;
   padding-left: 15%;
   margin-right: 32px;
   display: flex;
