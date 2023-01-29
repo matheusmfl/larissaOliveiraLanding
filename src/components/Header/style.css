@@ -1,0 +1,20 @@
+header {
+  background-color: #f3f8fa;
+  max-height: 618px;
+  display: flex;
+}
+
+.firstContainer {
+  max-width: 35%;
+  padding-top: 12%;
+  padding-left: 15%;
+  margin-right: 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.logo {
+  width: 122px;
+  height: 68px;
+}
