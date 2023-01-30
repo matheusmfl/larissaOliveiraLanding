@@ -1,4 +1,4 @@
-import { CircleWavyCheck } from "phosphor-react";
+import checkCircle from "../../assets/checkCircle.svg";
 import "./style.css";
 
 interface cardsProps {
@@ -10,7 +10,9 @@ interface cardsProps {
 export function Cards(props: cardsProps) {
   return (
     <div className="cards">
-      <CircleWavyCheck />
+      <div className="imgCheckCircle">
+        <img src={checkCircle} alt="" />
+      </div>
       <span>
         {props.title1} <strong>{props.strong}</strong> {props.title2}
       </span>

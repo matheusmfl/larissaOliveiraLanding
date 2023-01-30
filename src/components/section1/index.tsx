@@ -2,7 +2,7 @@ import "./style.css";
 
 export function Section1() {
   return (
-    <section className="MainContainerPadding">
+    <section className="MainContainerPadding section1Container">
       <h2>
         Se você não personalizar os seus resultados dificilmente conseguirá se
         uma profissional de destaque.

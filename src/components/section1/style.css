@@ -1,13 +1,13 @@
-section {
+.section1Container {
   max-height: 800px;
   background: black;
   display: flex;
   gap: 17%;
   color: white;
+  padding-right: 8%;
 }
 
 h2 {
-  padding-top: 12%;
   max-width: 214px;
   display: block;
   font-family: "Inter";
@@ -18,17 +18,18 @@ h2 {
 }
 
 .paragraphContainerSection1 {
-  padding-right: 8%;
+  /* padding-right: 8%; */
   padding-bottom: 20px;
 }
 p {
   font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 14px;
   line-height: 110.52%;
   /* or 22px */
   margin-bottom: 20px;
+  text-align: justify;
 
   color: #ffffff;
 }

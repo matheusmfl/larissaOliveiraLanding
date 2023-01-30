@@ -1,10 +1,24 @@
 .cards {
-  max-width: 268px;
-  min-height: 68px;
+  max-width: 30%;
+
+  height: 120px;
   background-color: white;
   color: black;
   display: flex;
-  padding: 10px;
+  gap: 5px;
+  padding: 20px 30px;
   border-radius: 12px;
-  font-size: 12px;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.imgCheckCircle {
+  display: flex;
+  justify-content: flex-start;
+  padding-top: 5px;
+}
+
+.imgCheckCircle img {
+  height: 22px;
+  width: 22px;
 }
