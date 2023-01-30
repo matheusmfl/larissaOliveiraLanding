@@ -1,0 +1,10 @@
+.cards {
+  max-width: 268px;
+  min-height: 68px;
+  background-color: white;
+  color: black;
+  display: flex;
+  padding: 10px;
+  border-radius: 12px;
+  font-size: 12px;
+}

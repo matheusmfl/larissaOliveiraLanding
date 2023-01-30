@@ -1,0 +1,20 @@
+.cardsSection {
+  background-color: #bec4c7;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  gap: 40px;
+}
+
+.cardsSection h1 {
+  margin-left: 23%;
+}
+
+.divCardsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+  align-items: center;
+  justify-content: left;
+}

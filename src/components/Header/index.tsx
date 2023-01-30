@@ -5,7 +5,7 @@ import heroImage from "../../assets/imgSection1.png";
 
 export function Header() {
   return (
-    <header>
+    <header className="MainContainerPadding">
       <div className="headerContainer">
         <div className="firstContainer">
           <img src={logo} alt="" className="logo" />
