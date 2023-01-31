@@ -16,7 +16,7 @@ export function Header() {
             Estética.
           </h1>
 
-          <Button />
+          <Button title="Quero melhorar os meus resultados!" width="100%" />
           <span>Pagamento 100% seguro</span>
         </div>
 

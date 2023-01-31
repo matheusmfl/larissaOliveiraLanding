@@ -1,3 +1,4 @@
+import { Button } from "../button";
 import { Cards } from "../cards";
 import "./style.css";
 
@@ -41,6 +42,17 @@ um público que vai"
           strong="pagar
 o valor justo pelo seu trabalho!"
         />
+      </div>
+
+      <div
+        style={{
+          width: "100%",
+          display: "flex",
+          justifyContent: "center",
+          paddingBottom: "80px",
+        }}
+      >
+        <Button title="Estou convencida, é pra mim!" width="40%" />
       </div>
     </section>
   );
