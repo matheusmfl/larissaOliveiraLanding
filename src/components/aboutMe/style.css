@@ -1,0 +1,22 @@
+.aboutMeContainer {
+  background-color: #f5f8fa;
+  max-height: 420px;
+  display: flex;
+}
+
+.aboutMeTexts {
+  padding-top: 5%;
+  padding-left: 15px;
+  padding-right: 5%;
+}
+
+.aboutMeTexts h1 {
+  font-weight: 500;
+  font-size: 36px;
+}
+
+.aboutMeTexts p {
+  color: black;
+  font-size: 16px;
+  padding-top: 3%;
+}
