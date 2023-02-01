@@ -3,7 +3,7 @@ import "./style.css";
 
 export function CardsCarrossel() {
   return (
-    <div style={{ display: "flex", gap: "20px" }}>
+    <div style={{ display: "flex", gap: "20px", alignItems: "center" }}>
       <div className="cardDiv">
         <div className="divTexts">
           <span>ETAPA 1</span>

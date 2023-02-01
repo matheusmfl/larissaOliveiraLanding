@@ -1,0 +1,22 @@
+.cardsSection2 {
+  width: 459px;
+  min-height: 93px;
+  background: white;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  /* or 125% */
+  display: flex;
+  padding: 23px;
+  gap: 18px;
+
+  color: #000000;
+}
+
+.cardsSection2 img {
+  margin-top: 4px;
+  width: 22px;
+  height: 19.49px;
+}

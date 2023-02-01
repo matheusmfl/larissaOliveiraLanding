@@ -1,0 +1,22 @@
+.sectionCard2Cards {
+  padding: 60px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 28px;
+
+  min-height: 506px;
+  align-items: center;
+  justify-content: center;
+}
+
+.sectionCard2Container {
+  background: #c1c6c9;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sectionCard2Container h2 {
+  max-width: 398px;
+}
