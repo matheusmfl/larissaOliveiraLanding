@@ -1,0 +1,11 @@
+.feedbackContainer {
+  min-height: 670px;
+  background-color: #f1f5f8;
+  display: flex;
+  flex-direction: column;
+  padding-top: 54px;
+  padding-bottom: 54px;
+  align-items: center;
+  justify-content: center;
+  gap: 19px;
+}

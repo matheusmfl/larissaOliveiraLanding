@@ -6,6 +6,7 @@ import { Header } from "./components/Header";
 import { Section1 } from "./components/section1";
 import { SectionCard2 } from "./components/sectionCards2";
 import { SectionCarrossel } from "./components/sectionCarrossel";
+import { SectionFeedback } from "./components/sectionFeedback";
 
 export function App() {
   return (
@@ -16,6 +17,7 @@ export function App() {
       <AboutMe />
       <SectionCarrossel />
       <SectionCard2 />
+      <SectionFeedback />
     </>
   );
 }
