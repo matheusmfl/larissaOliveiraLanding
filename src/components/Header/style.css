@@ -30,3 +30,47 @@ header {
   width: 122px;
   height: 68px;
 }
+@media (max-width: 390px) {
+  .firstContainer {
+    max-width: 100%;
+  }
+  .headerContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 456px;
+    padding: 0;
+    width: 100vw;
+  }
+  .heroImg {
+    width: 281px;
+    height: 268px;
+    right: 10px;
+  }
+  .headerContainer h1 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    padding-top: 37px;
+    width: 255px;
+  }
+  button {
+    width: 267px;
+    height: 27px;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: center;
+    position: relative;
+  }
+  .logo {
+    position: absolute;
+    bottom: 143px;
+    left: 45px;
+    z-index: 999;
+  }
+}

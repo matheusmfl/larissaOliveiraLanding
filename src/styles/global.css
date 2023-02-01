@@ -12,9 +12,11 @@
   box-shadow: 0 0 0 2px black;
 }
 
-.MainContainerPadding {
-  maxwidth: 1440px;
-  width: 100%;
-  padding-top: 7%;
-  padding-left: 15%;
+@media (min-width: 860px) {
+  .MainContainerPadding {
+    maxwidth: 1440px;
+    width: 100%;
+    padding-top: 7%;
+    padding-left: 15%;
+  }
 }
