@@ -1,0 +1,39 @@
+.cardDiv {
+  width: 227px;
+  height: 360px;
+  background-image: url("../../../assets/imgCard1.png");
+  border: 1px solid white;
+
+  border-radius: 13px;
+  box-sizing: "borderbox";
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.divTexts {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  max-height: 50%;
+  padding-bottom: 25px;
+  gap: 13px;
+  background: rgba(0, 0, 0, 0.6);
+  justify-content: flex-start;
+  text-align: center;
+}
+
+.divTexts p {
+  text-align: center;
+}
+
+.divTexts span {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+
+  text-align: center;
+  letter-spacing: 0.08em;
+}

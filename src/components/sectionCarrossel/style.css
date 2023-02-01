@@ -1,0 +1,16 @@
+.sectionCarrossel {
+  max-height: 636px;
+  padding: 60px;
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.sectionCarrossel h1 {
+  max-width: 464px;
+  text-align: center;
+}
