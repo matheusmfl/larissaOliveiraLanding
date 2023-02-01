@@ -11,7 +11,7 @@ export function SectionFeedback() {
         Feedback de quem já participou do nosso evento!
       </h2>
 
-      <div style={{ display: "flex", gap: "19px" }}>
+      <div style={{ display: "flex", gap: "19px", flexWrap: "wrap" }}>
         <img
           src={feedback1}
           alt=""

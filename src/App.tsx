@@ -7,6 +7,7 @@ import { Section1 } from "./components/section1";
 import { SectionCard2 } from "./components/sectionCards2";
 import { SectionCarrossel } from "./components/sectionCarrossel";
 import { SectionFeedback } from "./components/sectionFeedback";
+import { StartToday } from "./components/startToday";
 
 export function App() {
   return (
@@ -18,6 +19,7 @@ export function App() {
       <SectionCarrossel />
       <SectionCard2 />
       <SectionFeedback />
+      <StartToday />
     </>
   );
 }
