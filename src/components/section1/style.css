@@ -41,7 +41,7 @@ p {
 
   color: #ffffff;
 }
-@media (max-width: 390px) {
+@media (max-width: 440px) {
   .section1Container {
     display: flex;
     flex-direction: column;

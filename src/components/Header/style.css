@@ -30,7 +30,7 @@ header {
   width: 122px;
   height: 68px;
 }
-@media (max-width: 390px) {
+@media (max-width: 440px) {
   .firstContainer {
     max-width: 100%;
   }
