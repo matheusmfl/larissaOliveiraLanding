@@ -20,3 +20,13 @@
 .sectionCard2Container h2 {
   max-width: 398px;
 }
+@media (max-width: 440px) {
+  .sectionCard2Container h2 {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-top: 25px;
+  }
+}

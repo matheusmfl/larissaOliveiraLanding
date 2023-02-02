@@ -8,5 +8,30 @@
   align-items: center;
   justify-content: center;
   gap: 19px;
-  
+}
+@media (max-width: 440px) {
+  .feedbackContainer {
+    padding: 24px;
+  }
+  .feedbackContainer h2 {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+  .feedback1 {
+    transform: scale(0.8);
+    margin-top: -110px;
+    gap: 30px;
+    justify-content: center;
+  }
+  .div2img {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  .feedback1 img {
+    border-radius: 6px;
+  }
 }

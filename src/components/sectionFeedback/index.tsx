@@ -11,13 +11,17 @@ export function SectionFeedback() {
         Feedback de quem já participou do nosso evento!
       </h2>
 
-      <div style={{ display: "flex", gap: "19px", flexWrap: "wrap" }}>
+      <div
+        className="feedback1"
+        style={{ display: "flex", gap: "19px", flexWrap: "wrap" }}
+      >
         <img
           src={feedback1}
           alt=""
           style={{ maxWidth: "332px", maxHeight: "457px" }}
         />
         <div
+          className="div2img"
           style={{
             display: "flex",
             flexDirection: "column",
@@ -25,17 +29,20 @@ export function SectionFeedback() {
           }}
         >
           <img
+            className="feedback2"
             src={feedback2}
             alt=""
             style={{ maxWidth: "342px", maxHeight: "128px" }}
           />
           <img
+            className="feedback3"
             src={feedback3}
             alt=""
             style={{ maxWidth: "342px", maxHeight: "273px" }}
           />
         </div>
         <img
+          className="feedback4"
           src={feedback4}
           alt=""
           style={{ maxWidth: "250px", maxHeight: "457px" }}

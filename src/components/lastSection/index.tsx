@@ -5,10 +5,10 @@ import "./style.css";
 export function LastSection() {
   return (
     <div className="lastSection">
-      <div style={{ width: "50%" }}>
+      <div className="lastSectionImg" style={{ width: "50%" }}>
         <img src={imgLastSection} alt="" />
       </div>
-      <div style={{ paddingTop: "5%" }}>
+      <div className="lastSectionText" style={{ paddingTop: "5%" }}>
         <h3>Se você leu até aqui, agora só tem três caminhos possíveis:</h3>
 
         <p>
@@ -27,7 +27,7 @@ export function LastSection() {
           melhores e ter mais reconhecimento.
         </p>
 
-        <Button title="Estou convencida e quero melhorar!" width="457px" />
+        <Button title="Estou convencida e quero melhorar!" />
       </div>
     </div>
   );

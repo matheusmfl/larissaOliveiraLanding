@@ -7,7 +7,7 @@ export function StartToday() {
       <h3>Quanto mais você investe em você, mais valor você tem:</h3>
       <span className="valueParcelado">Por apenas 12x de</span>
       <strong>
-        <span>r$</span> 30,00
+        <span>R$</span> 30,00
       </strong>
       <span>Ou 300$ à vista</span>
 
