@@ -52,7 +52,7 @@ o valor justo pelo seu trabalho!"
           paddingBottom: "80px",
         }}
       >
-        <Button title="Estou convencida, é pra mim!" width="40%" />
+        <Button title="Estou convencida, é pra mim!" />
       </div>
     </section>
   );

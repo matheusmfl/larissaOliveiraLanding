@@ -21,3 +21,27 @@
   align-items: center;
   justify-content: left;
 }
+@media (max-width: 440px) {
+  .MainContainerPadding h1 {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+
+    padding-top: 27px;
+  }
+  .divCardsContainer {
+    justify-content: center;
+  }
+  .button {
+    width: 260px;
+    height: 27px;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+}

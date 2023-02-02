@@ -37,3 +37,12 @@
   text-align: center;
   letter-spacing: 0.08em;
 }
+@media (max-width: 440px) {
+  .cardDiv {
+    transform: scale(0.8);
+  }
+  .cards2Container {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}

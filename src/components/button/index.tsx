@@ -1,7 +1,7 @@
 import "./style.css";
 interface buttonProps {
   title: string;
-  width: string;
+  width?: string;
 }
 
 export function Button(props: buttonProps) {
